@@ -5,6 +5,7 @@ header,
     height: 100%;
 }
 
+
 #intro {
     background: url("..//img/jpg/drip.jpg")no-repeat center center fixed;
     -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
@@ -13,10 +14,10 @@ header,
     background-size: cover;         /* 通用 */
 }
 
-.top-nav-collapse {
-  background-color: #24355C;
-}
 
+.back-all{
+  background-color: #d7f2fd;
+}
 .view {
   height: 100%;
 }
@@ -31,7 +32,7 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: #563e91 !important;
+  background-color: rgb(158, 159, 252) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -40,12 +41,12 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #563e91 !important;
+    background: rgba(239, 241, 241, 0.6) !important;
   }
 }
 
 .rgba-gradient {
-  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
-  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -moz-linear-gradient(90deg, rgba(239, 241, 241, 0.6), rgba(3, 7, 253, 0.69) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(239, 241, 241, 0.6), rgba(3, 7, 253, 0.69) 100%);
+  background: linear-gradient(to 90deg, rgba(239, 241, 241, 0.6), rgba(3, 7, 253, 0.69) 100%);
 }
